@@ -30,9 +30,11 @@ user_pref("network.http.referer.trimmingPolicy", 2);
 user_pref("network.http.referer.XOriginPolicy", 2);
 user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 user_pref("webgl.disabled", true);
-// Disable Pocket add-on
-user_pref("extensions.pocket.enabled", false);
 // Disable studies & experiments
 user_pref("app.shield.optoutstudies.enabled", false);
 user_pref("experiments.enabled", false);
 user_pref("extensions.shield-recipe-client.enabled", false);
+// Disable page thumbnails capturing
+user_pref("browser.pagethumbnails.capturing_disabled", true);
+// Disable new tab activity stream
+user_pref("browser.newtabpage.activity-stream.enabled", false);
