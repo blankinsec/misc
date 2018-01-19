@@ -14,8 +14,8 @@
  */
 
 user_pref("privacy.firstparty.isolate", true);
-user_pref("privacy.resistFingerprinting", true);
-user_pref("privacy.trackingprotection.enabled", true);
+user_pref("privacy.resistFingerprinting", true); //changes your user agent, which may affect downloading add-ons. check about:support
+user_pref("privacy.trackingprotection.enabled", false); //'false' if using ublock origin, else 'true'
 user_pref("browser.cache.offline.enable", false);
 user_pref("browser.send_pings", false);
 user_pref("browser.sessionstore.max_tabs_undo", 3);
