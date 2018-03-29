@@ -7,6 +7,7 @@
  *   3. Close Firefox
  *   4. Copy this file into the Profile folder
  * Sources:
+ *   https://wiki.mozilla.org/Privacy/Privacy_Task_Force/firefox_about_config_privacy_tweeks
  *   https://www.privacytools.io/#about_config
  *   https://www.reddit.com/r/firefox/comments/7kvk0b/configuring_firefox_for_better_security_privacy/
  * Template:
@@ -14,8 +15,8 @@
  */
 
 user_pref("privacy.firstparty.isolate", true);
-user_pref("privacy.resistFingerprinting", true); //changes your user agent, which may affect downloading add-ons. check about:support
-user_pref("privacy.trackingprotection.enabled", false); //'false' if using ublock origin, else 'true'
+user_pref("privacy.resistFingerprinting", true); // changes your user agent, which may affect downloading add-ons. check about:support
+user_pref("privacy.trackingprotection.enabled", false); // 'false' if using ublock origin, else 'true'
 user_pref("browser.cache.offline.enable", false);
 user_pref("browser.send_pings", false);
 user_pref("browser.sessionstore.max_tabs_undo", 3);
@@ -30,6 +31,8 @@ user_pref("network.http.referer.trimmingPolicy", 2);
 user_pref("network.http.referer.XOriginPolicy", 2);
 user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 user_pref("webgl.disabled", true);
+user_pref("signon.rememberSignons", false);
+user_pref("browser.backspace_action", 0); // pressing backspace goes back a page
 // Disable studies & experiments
 user_pref("app.shield.optoutstudies.enabled", false);
 user_pref("experiments.enabled", false);
@@ -38,3 +41,5 @@ user_pref("extensions.shield-recipe-client.enabled", false);
 user_pref("browser.pagethumbnails.capturing_disabled", true);
 // Disable new tab activity stream
 user_pref("browser.newtabpage.activity-stream.enabled", false);
+// Set default homepage
+user_pref("browser.startup.homepage", "https://www.startpage.com");
