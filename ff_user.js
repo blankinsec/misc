@@ -37,9 +37,10 @@ user_pref("browser.backspace_action", 0); // pressing backspace goes back a page
 user_pref("app.shield.optoutstudies.enabled", false);
 user_pref("experiments.enabled", false);
 user_pref("extensions.shield-recipe-client.enabled", false);
+user_pref("extensions.pocket.enabled", false);
 // Disable page thumbnails capturing
 user_pref("browser.pagethumbnails.capturing_disabled", true);
 // Disable new tab activity stream
 user_pref("browser.newtabpage.activity-stream.enabled", false);
 // Set default homepage
-user_pref("browser.startup.homepage", "https://www.startpage.com");
+user_pref("browser.startup.homepage", "https://www.duckduckgo.com");
