@@ -2,15 +2,16 @@
  * Description:
  *   Privacy/personal config for Firefox that aims to not break good sites.
  * Usage:
- *   1. Rename this file to 'user.js'
- *   2. Go to about:support, next to 'Profile Folder' click Open Folder
- *   3. Close Firefox
- *   4. Copy this file into the Profile folder
+ *   1. Rename this file to 'user.js'.
+ *   2. Go to about:support, next to 'Profile Folder' click Open Folder.
+ *   3. Copy this file into the Profile folder.
+ *   4. Completely close and restart Firefox browser.
  * Sources:
  *   https://wiki.mozilla.org/Privacy/Privacy_Task_Force/firefox_about_config_privacy_tweeks
  *   https://www.privacytools.io/#about_config
  *   https://www.reddit.com/r/firefox/comments/7kvk0b/configuring_firefox_for_better_security_privacy/
  *   https://www.reddit.com/r/firefox/comments/91hbkw/youtube_page_load_is_5x_slower_in_firefox_and/
+ *   https://www.reddit.com/r/firefox/comments/91kebu/psa_newest_chrome_marks_all_http_not_secure_learn/
  * Template:
  *   user_pref("", );
  */
