@@ -1,11 +1,21 @@
 /* user.js
  * Description:
  *   Privacy/personal config for Firefox that aims to not break good sites.
+ *   This file does NOT control Firefox add-ons in any way. I use this config with the following add-ons:
+ *      * uBlock Origin
+ *      * HTTPS Everywhere (w/ 'Block all unencrypted requests' checked)
+ *      * Privacy Badger
+ *      * Decentraleyes
+ *      * Cookie AutoDelete (w/ 'Autoclean' enabled)
  * Usage:
  *   1. Rename this file to 'user.js'.
  *   2. Go to about:support, next to 'Profile Folder' click Open Folder.
  *   3. Copy this file into the Profile folder.
  *   4. Completely close and restart Firefox browser.
+ * How to undo these changes:
+ *   1. Go to about:support, next to 'Profile Folder' click Open Folder.
+ *   2. Delete this file, 'user.js'.
+ *   3. Completely close and restart Firefox browser.
  * Sources:
  *   https://wiki.mozilla.org/Privacy/Privacy_Task_Force/firefox_about_config_privacy_tweeks
  *   https://www.privacytools.io/#about_config
