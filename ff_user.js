@@ -10,6 +10,7 @@
  *   https://wiki.mozilla.org/Privacy/Privacy_Task_Force/firefox_about_config_privacy_tweeks
  *   https://www.privacytools.io/#about_config
  *   https://www.reddit.com/r/firefox/comments/7kvk0b/configuring_firefox_for_better_security_privacy/
+ *   https://www.reddit.com/r/firefox/comments/91hbkw/youtube_page_load_is_5x_slower_in_firefox_and/
  * Template:
  *   user_pref("", );
  */
@@ -44,3 +45,5 @@ user_pref("browser.pagethumbnails.capturing_disabled", true);
 user_pref("browser.newtabpage.activity-stream.enabled", false);
 // Set default homepage
 user_pref("browser.startup.homepage", "https://www.duckduckgo.com");
+// Prevent YouTube from loading slowly in Firefox
+user_pref("general.useragent.override.youtube.com", "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0");
