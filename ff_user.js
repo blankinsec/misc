@@ -47,3 +47,5 @@ user_pref("browser.newtabpage.activity-stream.enabled", false);
 user_pref("browser.startup.homepage", "https://www.duckduckgo.com");
 // Prevent YouTube from loading slowly in Firefox
 user_pref("general.useragent.override.youtube.com", "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0");
+// Display "Insecure Connection" when visiting a site over http
+user_pref("security.insecure_connection_text.enabled", true);
