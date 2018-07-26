@@ -60,3 +60,4 @@ user_pref("browser.startup.homepage", "https://www.duckduckgo.com");
 user_pref("general.useragent.override.youtube.com", "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0");
 // Display "Insecure Connection" when visiting a site over http
 user_pref("security.insecure_connection_text.enabled", true);
+user_pref("toolkit.cosmeticAnimations.enabled", false);
